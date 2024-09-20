@@ -11,5 +11,6 @@ git log --oneline //en una sola linea mas corto
 
 //ramas 
 git branch
-git checkout -b ramanueva
-git marge 
+git checkout seleccionar rama
+git checkout -b ramanueva crear
+git merge 

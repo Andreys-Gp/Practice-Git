@@ -8,3 +8,7 @@ git diff // modificaciones
 // ver los commits
 git log para salir de el :q
 git log --oneline //en una sola linea mas corto
+
+//ramas 
+git branch
+git checkout -b ramanueva

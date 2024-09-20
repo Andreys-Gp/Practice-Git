@@ -12,3 +12,4 @@ git log --oneline //en una sola linea mas corto
 //ramas 
 git branch
 git checkout -b ramanueva
+git marge 

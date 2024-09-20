@@ -1,4 +1,9 @@
 Hola mundo mi practica con git 
 
 git commit -m "name"
-git status
+git status 
+git status -s
+git diff // modificaciones 
+
+// ver los commits
+git log para salir de el :q

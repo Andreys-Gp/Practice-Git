@@ -1,1 +1,4 @@
 Hola mundo mi practica con git 
+
+git commit -m "name"
+git status

@@ -22,4 +22,32 @@ git push origin // name rama // enviar a repositorio
 git pull // actualiza el repositorio git de github 
 git branch -u origin/nombreRama // seteamos la rama para evitar conflictos con el pull 
 
+git tag etiquetaName // agrega una etiqueta para version entre los commits y guardarlos  para cambiarnos al tag se hace como lo hace checkout con checkout 
+
+git switch nameRama  //se dezplaza como checkout pero entre los commits y no crea ramas 
+
+
+// manejo errores en el codigo 
+git stash // guarda la nueva linea de codigo de manera local no visible en esa rama dondo posiblemente hay error 
+git stash list // muestra la lista de stash echos en esa rama 
+git stash pop //ingresa de nuevo donde estava el error de ese stash
+
+//eliminar ramas 
+git branch -d nameRama // eliminar de forma local 
+git push origin --delete nameRama // eliminar de forma remota 
+git pull //actualiza lo local de lo remoto a nivel general
+
+
+git fetch // trae el historial de todos los cambios remotos
+git log --oneline --all  // para ver los cambios 
+
+git reset --hard //vuelve los archivos actuales ala version del comit anterior 
+
+git clone linkREpo // clona el repositorio
+
+
+
+
+
+
 

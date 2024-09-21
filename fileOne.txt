@@ -17,5 +17,9 @@ git merge //une ramas
 
 //github
 git remote add //name 
-git push origin // name rama // enviar a repositori
+git push origin // name rama // enviar a repositorio
+
+git pull // actualiza el repositorio git de github 
+
+
 

@@ -14,6 +14,15 @@ git branch
 git checkout seleccionar rama
 git checkout -b ramanueva crear
 git merge //une ramas
+# Ver los repositorios remotos configurados
+git remote -v
+
+# Si no hay ningún repositorio, agregarlo
+git remote add origin https://github.com/tu_usuario/tu_repositorio.git
+
+# Fusionar la rama 'master' del repositorio 'origin'
+git merge origin/master
+
 
 //github
 git remote add //name 
